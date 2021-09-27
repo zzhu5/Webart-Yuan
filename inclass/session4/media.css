@@ -1,0 +1,12 @@
+img {
+    width: 50%;
+    min-width: 200px;
+    max-width: 700px;
+    display: block;
+    margin: 2rem;
+    border: 1rem dotted cyan;
+}
+#bird  {
+    width: 200px;
+                   }
+        
