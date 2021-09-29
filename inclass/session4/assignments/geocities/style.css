@@ -1,0 +1,53 @@
+@import
+url("https://web.archive.org/web/20090902023617im_/http://geocities.com/nlbabes/dots.gif");
+  
+#pic {
+    width: 50%;
+    min-width: 200px;
+    max-width: 700px;
+    display: block;
+    margin: 2rem;}
+    
+ body {
+    font-family: 'Menlo, Monaco, \'Courier New\', monospace';
+    font-size: 3rem;
+    background-image:url("https://web.archive.org/web/20090902023617im_/http://geocities.com/nlbabes/dots.gif");
+    background-size: contain;  
+    background-repeat: repeat;
+    min-height: 100vh;
+    
+  }
+  
+  p {
+    font-family: 'Gemunu Libre', sans-serif;
+    font-weight: 280;
+  }
+
+  #abstract1 {
+    width: 10rem;
+    height: 10rem;
+
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+  }
+
+  #abstract2 {
+
+    width: 10rem;
+    height: 10rem;
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+  }
+
+  #blackcat {
+    width: 5rem;
+    height: 5rem;
+   
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
