@@ -1,0 +1,79 @@
+:root{
+    --font-primary: "Helvetica", sans-serif;
+    --font-secondary: "Papyrus", sans-serif;
+    
+}
+
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+body{
+    font-family: var(--font-primary);
+}
+
+a{
+    font-family: var(--secondary-primary);
+
+}
+
+a:hover{
+    color: #222;
+}
+
+.left-container {
+    width: 20vw;
+
+    position: fixed;
+    height: 100vh;
+    padding: 8rem 3rem 3rem 3rem;
+
+}
+
+.left-container a{
+    text-decoration: none;
+    color: #666
+}
+
+
+.right-container {
+    width: 80vw;
+   
+    position: fixed;
+    left: 20vw;
+    height: 100vh;
+
+
+}
+
+.site-title{
+    padding: 0rem 0rem 3rem 0rem ;
+
+
+}
+
+.entire-menu nav{
+    margin: 3em, 0;
+}
+
+.entire-menu li{
+    list-style-type: none;
+    margin-left: 2em; 
+    text-decoration: none;
+}
+
+.other{
+    padding: 10rem 0rem 0rem 0rem ;
+}
+
+.front-img{
+    
+    padding: 12rem 20% 20% 20%;
+    position: relative;
+    
+    
+}
+
+#pic1{
+    width: 500px;
+    height: auto;
+
+}
